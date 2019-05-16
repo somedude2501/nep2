@@ -4,7 +4,7 @@ function createScript() {
   if(block == 9) return;
   var script = document.createElement("script");
   script.onload = createScript;
-  script.src = "https://somedude2501.github.io/NeptunJS/blocks/block-"+block+".js";
+  script.src = "https://somedude2501.github.io/nep2/blocks/block-"+block+".js";
   document.head.appendChild(script);
 }
 
